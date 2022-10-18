@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./",
+    "types": [],
+    "allowJs": true,
+    "module": "esnext",
+    "target": "esnext",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "checkJs": false,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "jsx": "preserve"
+  },
+  "include": ["src/**/*.js", "src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "exclude": ["node_modules", "dist", "**/node_modules/*"]
+}
